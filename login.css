@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.container .inner-container{
+    background-color: #0e96e6;
+    padding: 10px;
+    min-width: 400px;
+    border-radius: 5px;
+}
+
+.container .inner-container .header{
+    color: #fff;
+    text-align: center;
+}
+.container .inner-container p{
+    color: white;
+}
+.btn-custom{
+    width: 100%;
+    background-color: white;
+}
+.btn-custom:hover{
+    background-color: black;
+    color: white;
+}
